@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Datenschutzerklärung - Pasing Barbershop, München Pasing">
+    <title>Datenschutz | Pasing Barbershop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .legal-page {
+            min-height: 100vh;
+            padding: 150px 0 80px;
+        }
+
+        .legal-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border-radius: 15px;
+            padding: 50px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .legal-content h2 {
+            font-family: var(--font-heading);
+            color: var(--accent-gold);
+            margin: 30px 0 15px;
+            font-size: 1.5rem;
+        }
+
+        .legal-content h2:first-child {
+            margin-top: 0;
+        }
+
+        .legal-content h3 {
+            color: var(--text-primary);
+            margin: 20px 0 10px;
+            font-size: 1.2rem;
+        }
+
+        .legal-content p,
+        .legal-content li {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .legal-content ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .legal-content li {
+            margin-bottom: 8px;
+            list-style-type: disc;
+        }
+
+        .legal-content a {
+            color: var(--accent-gold);
+        }
+
+        .legal-content a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent-gold);
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            color: var(--accent-gold-light);
+        }
+
+        .legal-footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .legal-footer a {
+            color: var(--text-secondary);
+            margin: 0 15px;
+        }
+
+        .legal-footer a:hover {
+            color: var(--accent-gold);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="Pasing Barbershop Logo">
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html#home" class="nav-link" data-translate="nav_home">Startseite</a></li>
+                <li><a href="index.html#about" class="nav-link" data-translate="nav_about">Über Uns</a></li>
+                <li><a href="index.html#services" class="nav-link" data-translate="nav_services">Leistungen</a></li>
+                <li><a href="index.html#gallery" class="nav-link" data-translate="nav_gallery">Galerie</a></li>
+                <li><a href="index.html#contact" class="nav-link" data-translate="nav_contact">Kontakt</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="lang-toggle">
+                    <button class="lang-btn active" data-lang="de">DE</button>
+                    <span class="lang-divider">|</span>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="tel:+498932804998" class="nav-phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+49 89 32804998</span>
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Legal Page Content -->
+    <section class="legal-page">
+        <div class="container">
+            <a href="index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-translate="back_home">Zurück zur Startseite</span>
+            </a>
+
+            <div class="legal-header">
+                <span class="section-tag" data-translate="legal_info">Rechtliche Informationen</span>
+                <h1 class="section-title" data-translate="privacy_title">Datenschutzerklärung</h1>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="legal-content">
+                <h2 data-translate="priv_overview">1. Datenschutz auf einen Blick</h2>
+
+                <h3 data-translate="priv_general">Allgemeine Hinweise</h3>
+                <p data-translate="priv_general_text">
+                    Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen
+                    Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit
+                    denen Sie persönlich identifiziert werden können.
+                </p>
+
+                <h3 data-translate="priv_collection">Datenerfassung auf dieser Website</h3>
+                <p data-translate="priv_collection_q">
+                    <strong>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</strong>
+                </p>
+                <p data-translate="priv_collection_a">
+                    Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten
+                    können Sie dem Impressum dieser Website entnehmen.
+                </p>
+
+                <h2 data-translate="priv_hosting">2. Hosting</h2>
+                <p data-translate="priv_hosting_text">
+                    Wir hosten die Inhalte unserer Website bei folgendem Anbieter. Die Server unseres Hosters befinden
+                    sich in Deutschland. Beim Besuch unserer Website sendet Ihr Browser verschiedene Informationen an
+                    den Server. Dies umfasst die IP-Adresse, Browsertyp, Betriebssystem und Zeitpunkt des Zugriffs.
+                </p>
+
+                <h2 data-translate="priv_rights">3. Ihre Rechte</h2>
+                <p data-translate="priv_rights_intro">Sie haben jederzeit das Recht:</p>
+                <ul>
+                    <li data-translate="priv_right1">Auskunft über Ihre gespeicherten Daten zu erhalten</li>
+                    <li data-translate="priv_right2">Berichtigung unrichtiger Daten zu verlangen</li>
+                    <li data-translate="priv_right3">Löschung Ihrer Daten zu verlangen</li>
+                    <li data-translate="priv_right4">Einschränkung der Datenverarbeitung zu verlangen</li>
+                    <li data-translate="priv_right5">Der Datenverarbeitung zu widersprechen</li>
+                    <li data-translate="priv_right6">Ihre Daten übertragbar zu erhalten</li>
+                </ul>
+
+                <h2 data-translate="priv_contact">4. Kontaktaufnahme</h2>
+                <p data-translate="priv_contact_text">
+                    Wenn Sie uns per Telefon kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden
+                    personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns
+                    gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+                </p>
+
+                <h2 data-translate="priv_social">5. Soziale Medien</h2>
+                <h3>Instagram</h3>
+                <p data-translate="priv_instagram">
+                    Auf dieser Website sind Links zu unserem Instagram-Profil eingebunden. Wenn Sie auf diese
+                    Links klicken, werden Sie zu Instagram weitergeleitet. Instagram ist ein Dienst der Meta
+                    Platforms Ireland Limited. Datenschutzinformationen von Instagram finden Sie unter:
+                    <a href="https://privacycenter.instagram.com/policy"
+                        target="_blank">https://privacycenter.instagram.com/policy</a>
+                </p>
+
+                <h2 data-translate="priv_maps">6. Google Maps</h2>
+                <p data-translate="priv_maps_text">
+                    Diese Seite nutzt über eine API den Kartendienst Google Maps. Anbieter ist die Google Ireland
+                    Limited. Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu speichern.
+                    Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort
+                    gespeichert. Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung
+                    von Google: <a href="https://policies.google.com/privacy"
+                        target="_blank">https://policies.google.com/privacy</a>
+                </p>
+
+                <h2 data-translate="priv_fonts">7. Google Fonts (lokal)</h2>
+                <p data-translate="priv_fonts_text">
+                    Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von
+                    Google bereitgestellt werden. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern
+                    von Google findet dabei nicht statt.
+                </p>
+
+                <h2 data-translate="priv_storage">8. Lokale Speicherung</h2>
+                <p data-translate="priv_storage_text">
+                    Diese Website verwendet den lokalen Speicher (localStorage) Ihres Browsers, um Ihre
+                    Spracheinstellungen zu speichern. Diese Daten werden nicht an uns übermittelt und dienen
+                    ausschließlich der Verbesserung Ihres Nutzungserlebnisses.
+                </p>
+
+                <h2 data-translate="priv_update">9. Änderungen</h2>
+                <p data-translate="priv_update_text">
+                    Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen
+                    rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der
+                    Datenschutzerklärung umzusetzen.
+                </p>
+
+                <p style="margin-top: 30px; font-style: italic; color: var(--text-muted);">
+                    <span data-translate="priv_date">Stand:</span> Dezember 2024
+                </p>
+            </div>
+
+            <div class="legal-footer">
+                <a href="impressum.html" data-translate="footer_impressum">Impressum</a>
+                <span>|</span>
+                <a href="datenschutz.html" data-translate="footer_datenschutz">Datenschutz</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Language translations for privacy page
+        const translations = {
+            de: {
+                nav_home: "Startseite",
+                nav_about: "Über Uns",
+                nav_services: "Leistungen",
+                nav_gallery: "Galerie",
+                nav_contact: "Kontakt",
+                back_home: "Zurück zur Startseite",
+                legal_info: "Rechtliche Informationen",
+                privacy_title: "Datenschutzerklärung",
+                priv_overview: "1. Datenschutz auf einen Blick",
+                priv_general: "Allgemeine Hinweise",
+                priv_general_text: "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.",
+                priv_collection: "Datenerfassung auf dieser Website",
+                priv_collection_q: "<strong>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</strong>",
+                priv_collection_a: "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.",
+                priv_hosting: "2. Hosting",
+                priv_hosting_text: "Wir hosten die Inhalte unserer Website bei folgendem Anbieter. Die Server unseres Hosters befinden sich in Deutschland. Beim Besuch unserer Website sendet Ihr Browser verschiedene Informationen an den Server. Dies umfasst die IP-Adresse, Browsertyp, Betriebssystem und Zeitpunkt des Zugriffs.",
+                priv_rights: "3. Ihre Rechte",
+                priv_rights_intro: "Sie haben jederzeit das Recht:",
+                priv_right1: "Auskunft über Ihre gespeicherten Daten zu erhalten",
+                priv_right2: "Berichtigung unrichtiger Daten zu verlangen",
+                priv_right3: "Löschung Ihrer Daten zu verlangen",
+                priv_right4: "Einschränkung der Datenverarbeitung zu verlangen",
+                priv_right5: "Der Datenverarbeitung zu widersprechen",
+                priv_right6: "Ihre Daten übertragbar zu erhalten",
+                priv_contact: "4. Kontaktaufnahme",
+                priv_contact_text: "Wenn Sie uns per Telefon kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
+                priv_social: "5. Soziale Medien",
+                priv_instagram: "Auf dieser Website sind Links zu unserem Instagram-Profil eingebunden. Wenn Sie auf diese Links klicken, werden Sie zu Instagram weitergeleitet. Instagram ist ein Dienst der Meta Platforms Ireland Limited. Datenschutzinformationen von Instagram finden Sie unter: https://privacycenter.instagram.com/policy",
+                priv_maps: "6. Google Maps",
+                priv_maps_text: "Diese Seite nutzt über eine API den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited. Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu speichern. Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.",
+                priv_fonts: "7. Google Fonts (lokal)",
+                priv_fonts_text: "Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern von Google findet dabei nicht statt.",
+                priv_storage: "8. Lokale Speicherung",
+                priv_storage_text: "Diese Website verwendet den lokalen Speicher (localStorage) Ihres Browsers, um Ihre Spracheinstellungen zu speichern. Diese Daten werden nicht an uns übermittelt und dienen ausschließlich der Verbesserung Ihres Nutzungserlebnisses.",
+                priv_update: "9. Änderungen",
+                priv_update_text: "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen.",
+                priv_date: "Stand:",
+                footer_impressum: "Impressum",
+                footer_datenschutz: "Datenschutz"
+            },
+            en: {
+                nav_home: "Home",
+                nav_about: "About Us",
+                nav_services: "Services",
+                nav_gallery: "Gallery",
+                nav_contact: "Contact",
+                back_home: "Back to Home",
+                legal_info: "Legal Information",
+                privacy_title: "Privacy Policy",
+                priv_overview: "1. Privacy at a Glance",
+                priv_general: "General Information",
+                priv_general_text: "The following information provides a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to personally identify you.",
+                priv_collection: "Data Collection on This Website",
+                priv_collection_q: "<strong>Who is responsible for data collection on this website?</strong>",
+                priv_collection_a: "Data processing on this website is carried out by the website operator. You can find their contact details in the legal notice of this website.",
+                priv_hosting: "2. Hosting",
+                priv_hosting_text: "We host the contents of our website with the following provider. Our host's servers are located in Germany. When you visit our website, your browser sends various information to the server. This includes the IP address, browser type, operating system and time of access.",
+                priv_rights: "3. Your Rights",
+                priv_rights_intro: "You have the right at any time to:",
+                priv_right1: "Obtain information about your stored data",
+                priv_right2: "Request correction of incorrect data",
+                priv_right3: "Request deletion of your data",
+                priv_right4: "Request restriction of data processing",
+                priv_right5: "Object to data processing",
+                priv_right6: "Receive your data in a portable format",
+                priv_contact: "4. Contact",
+                priv_contact_text: "If you contact us by phone, your request including all personal data arising from it (name, request) will be stored and processed by us for the purpose of handling your request. We will not share this data without your consent.",
+                priv_social: "5. Social Media",
+                priv_instagram: "This website contains links to our Instagram profile. If you click on these links, you will be redirected to Instagram. Instagram is a service of Meta Platforms Ireland Limited. You can find Instagram's privacy information at: https://privacycenter.instagram.com/policy",
+                priv_maps: "6. Google Maps",
+                priv_maps_text: "This site uses the Google Maps map service via an API. The provider is Google Ireland Limited. To use the functions of Google Maps, it is necessary to store your IP address. This information is usually transferred to a Google server in the USA and stored there.",
+                priv_fonts: "7. Google Fonts (local)",
+                priv_fonts_text: "This site uses so-called web fonts provided by Google for the uniform display of fonts. The Google Fonts are installed locally. There is no connection to Google servers.",
+                priv_storage: "8. Local Storage",
+                priv_storage_text: "This website uses your browser's local storage (localStorage) to save your language settings. This data is not transmitted to us and is used solely to improve your user experience.",
+                priv_update: "9. Changes",
+                priv_update_text: "We reserve the right to adapt this privacy policy so that it always complies with current legal requirements or to implement changes to our services in the privacy policy.",
+                priv_date: "Last updated:",
+                footer_impressum: "Legal Notice",
+                footer_datenschutz: "Privacy Policy"
+            }
+        };
+
+        let currentLang = localStorage.getItem('pasingBarberLang') || 'de';
+
+        // Language switcher
+        const langBtns = document.querySelectorAll('.lang-btn');
+        langBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                setLanguage(btn.dataset.lang);
+            });
+        });
+
+        function setLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('pasingBarberLang', lang);
+
+            langBtns.forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.lang === lang);
+            });
+
+            document.documentElement.lang = lang;
+
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.dataset.translate;
+                if (translations[lang] && translations[lang][key]) {
+                    element.innerHTML = translations[lang][key];
+                }
+            });
+        }
+
+        // Initialize language on load
+        setLanguage(currentLang);
+
+        // Mobile menu
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
